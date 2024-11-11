@@ -11,7 +11,7 @@ public class KineticEnergy {
         return new double[]{mass, speed}; // Массив для хранения массы и скорости
     }
 
-    // Корректная масса массы
+    // Корректная масса
     private double ValidMass(Scanner scanner) {
         while (true) {
             try {
@@ -28,7 +28,7 @@ public class KineticEnergy {
         }
     }
 
-    // Корректная скорость скорости
+    // Корректная скорость 
     private double ValidSpeed(Scanner scanner) {
         while (true) {
             try {
